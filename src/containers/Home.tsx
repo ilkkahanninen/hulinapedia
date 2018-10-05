@@ -27,8 +27,8 @@ export default withRouteData(({ pages }: Props) => {
     <div>
       <h1>Tervetuloa Hulinapedian arkistoon</h1>
       {sortedLetters.map(letter => (
-        <div>
-          <h2 key={letter}>{letter}</h2>
+        <div key={letter}>
+          <h2>{letter}</h2>
           <ul>
             {sortPages(groupedPages[letter]).map(page => (
               <li key={page.slug}>

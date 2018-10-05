@@ -1,4 +1,5 @@
 import { reloadRoutes } from 'react-static/node'
+import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import path from 'path'
 import chokidar from 'chokidar'
 import { getPages } from './get-pages'
@@ -65,6 +66,9 @@ export default {
         ],
       },
     ]
+
+    config.plugins.push(new ExtractTextPlugin('styles.css'))
+
     return config
   },
 }
