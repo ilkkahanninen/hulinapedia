@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Roboto+Slab');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.75em;
+  font-weight: 400;
+  hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.25em;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #108db8;
+}
+
+a.missing-target {
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  font-family: 'Roboto Slab', serif;
+  width: 100%;
+  background: #108db8;
+}
+
+nav a {
+  color: white;
+  padding: 1rem 2rem 1rem 0;
+  display: inline-block;
+}
+
+.content {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .responsive-container {
+    margin: 0 auto;
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .responsive-container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .responsive-container {
+    max-width: 1140px;
+  }
+}
