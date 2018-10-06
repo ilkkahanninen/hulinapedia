@@ -1,20 +1,20 @@
 import React from 'react'
 import { withRouteData, Link } from 'react-static'
 import { groupBy, keys, sort } from 'ramda'
-import { PageData } from '../types'
+import { MinimalPageData } from '../types'
 
 interface Props {
-  pages: PageData[]
+  pages: MinimalPageData[]
 }
 
-const byFirstLetter = groupBy((page: PageData) => {
+const byFirstLetter = groupBy((page: MinimalPageData) => {
   const letter = page.title.slice(0, 1).toUpperCase()
   return letter.match(/[\wÄÖÅ]/) ? letter : '#'
 })
 
 const sortStrings = sort((a: string, b: string) => a.localeCompare(b, 'fi'))
 
-const sortPages = sort((a: PageData, b: PageData) =>
+const sortPages = sort((a: MinimalPageData, b: MinimalPageData) =>
   a.title.localeCompare(b.title, 'fi'),
 )
 

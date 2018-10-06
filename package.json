@@ -20,7 +20,8 @@
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-static": "^5.9.12",
-    "remove-accents": "^0.4.2"
+    "remove-accents": "^0.4.2",
+    "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
