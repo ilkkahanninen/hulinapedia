@@ -26,9 +26,9 @@ export const getPages = async () => {
     if (href.includes('://')) {
       return `<a href="${href}" target="_blank">${text}</a>`
     } else if (files.includes(href)) {
-      return `<a href="${href}">${text}</a>`
+      return `<a href="/sivu/${href}">${text}</a>`
     }
-    return `<a href="${href}" class="missing-target">${text}</a>`
+    return `<a href="/sivu/${href}" class="missing-target">${text}</a>`
   }
 
   marked.setOptions({
