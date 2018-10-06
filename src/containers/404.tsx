@@ -15,6 +15,13 @@ export default withRouteData(({ match }: { match: { url: string } }) => {
   const title = capitalize(id.replace(/_/g, ' '))
   const body = `%23%20${title}`
 
+  const redirect = (event: React.MouseEvent) => {
+    event.preventDefault()
+    window.location.replace(
+      `https://github.com/ilkkahanninen/hulinapedia/new/master/content/pages/${slug}?filename=${slug}&value=${body}`,
+    )
+  }
+
   return (
     <div>
       <h1>{title}</h1>
@@ -22,9 +29,7 @@ export default withRouteData(({ match }: { match: { url: string } }) => {
         Tätä sivua ei vielä ole, mutta ehkä vielä joku päivä tämäkin on.
       </p>
       <hr />
-      <a
-        href={`https://github.com/ilkkahanninen/hulinapedia/new/master/content/pages/${slug}?filename=${slug}&value=${body}`}
-      >
+      <a href="#" onClick={redirect}>
         Luo uusi sivu GitHubissa
       </a>
     </div>
