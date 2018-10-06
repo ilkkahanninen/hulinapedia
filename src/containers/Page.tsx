@@ -19,7 +19,7 @@ export default withRouteData(({ page }: Props) => (
     <hr />
     <a
       href={`https://github.com/ilkkahanninen/hulinapedia/edit/master/content/pages/${
-        page.slug
+        page.file
       }`}
     >
       Muokkaa sivua GitHubissa
