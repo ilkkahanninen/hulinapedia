@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Roboto+Slab');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -16,15 +20,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 48px;
-}
-
-h2 {
   font-size: 36px;
 }
 
-h3, h4, h5, h6 {
+h2 {
   font-size: 24px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 22px;
 }
 
 a {
@@ -44,12 +48,11 @@ nav {
   font-family: 'Roboto Slab', serif;
   width: 100%;
   background: #108db8;
-  padding-left: 1rem;
 }
 
 nav a {
   color: white;
-  padding: 1rem 2rem 1rem 0;
+  padding: 1rem;
   display: inline-block;
 }
 
@@ -61,6 +64,18 @@ nav a {
   .responsive-container {
     margin: 0 auto;
     max-width: 540px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3, h4, h5, h6 {
+    font-size: 24px;
   }
 }
 
