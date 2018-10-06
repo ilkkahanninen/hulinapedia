@@ -1,6 +1,7 @@
 import React from 'react'
-import { withRouteData } from 'react-static'
+import { withRouteData, Redirect } from 'react-static'
 import * as R from 'ramda'
+import { sluginize } from "../../utils/sluginize";
 
 const getPageId = R.pipe(
   R.split('/'),
@@ -11,7 +12,13 @@ const capitalize = (str: string) => str.slice(0, 1).toUpperCase() + str.slice(1)
 
 export default withRouteData(({ match }: { match: { url: string } }) => {
   const id = getPageId(match.url)
-  const slug = id.replace(/\s/g, '_').toLowerCase()
+  console.log('ID', id)
+  const slug = sluginize(id)
+
+  if (slug !== id) {
+    return <Redirect to={`/sivu/${slug}`} />
+  }
+
   const title = capitalize(id.replace(/_/g, ' '))
   const body = `%23%20${title}`
 

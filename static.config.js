@@ -11,16 +11,21 @@ chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
-  getSiteData: () => ({
-    title: 'Hulinapedia',
-  }),
+  getSiteData: () => ({}),
   getRoutes: async () => {
     const pages = await getPages()
+    const pageList = pages.map(page => ({
+      slug: page.slug,
+      title: page.title,
+    }))
+
     return [
       {
         path: '/',
         component: 'src/containers/Home',
-        getData: () => ({ pages }),
+        getData: () => ({
+          pages: pageList,
+        }),
       },
       ...pages.map(page => ({
         path: `/sivu/${page.slug}`,

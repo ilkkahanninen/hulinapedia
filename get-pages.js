@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { promisify } from 'util'
 import marked from 'marked'
+import { sluginize } from './utils/sluginize'
 
 const pagePath = 'content/pages'
 const readDir = promisify(fs.readdir)
@@ -13,7 +14,7 @@ const createInternalLink = title => {
 }
 
 export const getPages = async () => {
-  const files = (await readDir(pagePath))
+  const files = await readDir(pagePath)
 
   const renderer = new marked.Renderer()
 
@@ -26,9 +27,9 @@ export const getPages = async () => {
     if (href.includes('://')) {
       return `<a href="${href}" target="_blank">${text}</a>`
     } else if (files.includes(href)) {
-      return `<a href="/sivu/${href}">${text}</a>`
+      return `<a href="/sivu/${sluginize(href)}">${text}</a>`
     }
-    return `<a href="/sivu/${href}" class="missing-target">${text}</a>`
+    return `<a href="/sivu/${sluginize(href)}" class="missing-target">${text}</a>`
   }
 
   marked.setOptions({
@@ -45,7 +46,8 @@ export const getPages = async () => {
       const imageMatch = content.match(/!\[.*?]\((.*?)\)/)
 
       return {
-        slug: fileName,
+        slug: sluginize(fileName),
+        file: fileName,
         title: titleMatch ? titleMatch[1] : fileName,
         image: imageMatch && imageMatch[1],
         content: marked(content),
