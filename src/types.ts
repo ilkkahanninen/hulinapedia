@@ -3,5 +3,6 @@ export interface PageData {
   file: string
   title: string
   content: string
+  description: string
   image?: string
 }

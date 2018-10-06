@@ -20,7 +20,7 @@ export const getPages = async () => {
 
   renderer.image = (href, title, text) => {
     const url = href.includes('://') ? href : `/images/${href}`
-    return `<img src="${url}" title="${title}" alt="${text}">`
+    return `<img src="${url}" title="${text}" alt="${text}">`
   }
 
   renderer.link = (href, title, text) => {
@@ -29,7 +29,9 @@ export const getPages = async () => {
     } else if (files.includes(href)) {
       return `<a href="/sivu/${sluginize(href)}">${text}</a>`
     }
-    return `<a href="/sivu/${sluginize(href)}" class="missing-target">${text}</a>`
+    return `<a href="/sivu/${sluginize(
+      href,
+    )}" class="missing-target">${text}</a>`
   }
 
   marked.setOptions({
@@ -44,6 +46,10 @@ export const getPages = async () => {
         .replace(/\[\[(.*?)\]\]/g, (match, text) => createInternalLink(text)) // support for mediawiki style internal links
       const titleMatch = content.match(/#+\s*(.*)$/m)
       const imageMatch = content.match(/!\[.*?]\((.*?)\)/)
+      const description = content
+        .split('\n')
+        .slice(1)
+        .find(n => n)
 
       return {
         slug: sluginize(fileName),
@@ -51,6 +57,7 @@ export const getPages = async () => {
         title: titleMatch ? titleMatch[1] : fileName,
         image: imageMatch && imageMatch[1],
         content: marked(content),
+        description,
       }
     }),
   )

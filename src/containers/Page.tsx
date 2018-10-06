@@ -10,7 +10,11 @@ interface Props {
 
 export default withRouteData(({ page }: Props) => (
   <div>
-    <PageMeta title={page.title} />
+    <PageMeta
+      title={page.title}
+      image={page.image}
+      description={page.description}
+    />
     {convert(page.content)}
     <hr />
     <a

@@ -10,6 +10,7 @@ const typescriptWebpackPaths = require('./webpack.config.js')
 chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
+  siteRoot: 'https://hulinapedia.netlify.com/',
   entry: path.join(__dirname, 'src', 'index.tsx'),
   getSiteData: () => ({}),
   getRoutes: async () => {
