@@ -8,7 +8,7 @@ interface Props {
   page: PageData
 }
 
-export default withRouteData(({ page }: Props) => (console.log('page', page),
+export default withRouteData(({ page }: Props) => (
   <div>
     <PageMeta
       title={page.title}

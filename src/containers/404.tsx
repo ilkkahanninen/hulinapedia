@@ -12,7 +12,6 @@ const capitalize = (str: string) => str.slice(0, 1).toUpperCase() + str.slice(1)
 
 export default withRouteData(({ match }: { match: { url: string } }) => {
   const id = getPageId(match.url)
-  console.log('ID', id)
   const slug = sluginize(id)
 
   if (slug !== id) {
