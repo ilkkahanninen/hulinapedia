@@ -13,5 +13,5 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Category", name: "category", widget: "list" }
-      - { label: "Content", name: "body", widget: "markdown", required: true }
+      - { label: "Category", name: "category", widget: "list", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }
