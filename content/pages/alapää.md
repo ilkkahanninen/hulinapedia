@@ -1,6 +1,7 @@
 ---
-  category: "Matkakohteet"
-  title: "Alapää"
+category:
+  - "Matkakohteet"
+title: "Alapää"
 ---
 Hulinaprinsessan kämppä Jyväskylässä, jonne hän muutti kesällä 2014 luokkakaverinsa kanssa.
 
