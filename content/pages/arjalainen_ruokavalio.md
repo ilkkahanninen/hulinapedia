@@ -1,7 +1,7 @@
 ---
-  category: 
-    - "Elintarvikkeet"
-  title: "Arjalainen ruokavalio"
+title: Arjalainen ruokavalio
+category:
+  - Elintarvikkeet
 ---
 Arjalainen ruokavalio koostuu seuraavista asioista:
 
@@ -13,6 +13,7 @@ Arjalainen ruokavalio koostuu seuraavista asioista:
 * valkosuklaa
 * valkoviini
 * valkosipuli
+* valkoinen sokeri
 * valkuaisaineet
 * valkovuoto
 
