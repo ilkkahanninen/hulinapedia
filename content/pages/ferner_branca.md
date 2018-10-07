@@ -1,8 +1,7 @@
 ---
-category:
-  - Juomat ja olosuhteet
-  - Esimerkit epäonnistuneista yrityksistä luoda Hulinapedia-sivu
+  category: 
+    - "Juomat ja olosuhteet"
+    - "Esimerkit epäonnistuneista yrityksistä luoda Hulinapedia-sivu"
+  title: "Ferner Branca"
 ---
-# Ferner Branca
-
 Hulina Ry:n johtoportaan kansallisjuoma. Katso myös [[Fernet Branca]].

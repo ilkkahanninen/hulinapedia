@@ -1,11 +1,9 @@
 ---
-category:
-  - Mielentilat
-  - Noituus
+  category: 
+    - "Mielentilat"
+    - "Noituus"
+  title: "Bussiahdistus"
 ---
-# Bussiahdistus
-
-
 Iskee aina tajutessa [normcoren](normcore) valta-aseman.
 
 ----

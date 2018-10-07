@@ -1,10 +1,8 @@
 ---
-category:
-  - Apusanat
+  category: 
+    - "Apusanat"
+  title: "Palindromi"
 ---
-
-# Palindromi
-
 Palindromi on sana tai lause, joka takaperin luettuna on se samainen sana, joka siinä etuperinkin jo luki. Jumprahinen!
 
 ## Esimerkkejä hauskoista palindromeista

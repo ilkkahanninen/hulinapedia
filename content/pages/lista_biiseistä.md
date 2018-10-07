@@ -1,10 +1,8 @@
 ---
-category:
-  - This Is What I Call Normcore
+  category: 
+    - "This Is What I Call Normcore"
+  title: "Lista biiseistä"
 ---
-
-# Lista biiseistä
-
 * Kesäyöpoika, Hulinan tuleva kesähitti, joka rakentuu paskoista reggaekompituksista. "Kesäyö, mmm, kesäyö, oi, poika vie minut tanssiin, kesäyöpoika vie minut transsiin"
 * KARJUN KARVOILLE
 * Näi & Nii

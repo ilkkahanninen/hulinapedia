@@ -1,9 +1,7 @@
 ---
-category:
-  - Yhteenlasku ja muut matemaattiset ongelmat
-  - Rekursiot
+  category: 
+    - "Yhteenlasku ja muut matemaattiset ongelmat"
+    - "Rekursiot"
+  title: "Rekursio"
 ---
-
-# Rekursio
-
 Kts. [[rekursio]]

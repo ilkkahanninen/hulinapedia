@@ -1,7 +1,6 @@
 ---
-category:
-  - Pelit
+  category: 
+    - "Pelit"
+  title: "Aivopesu"
 ---
-# Aivopesu
-
 Hauska ja suosittu seuraleikki, jossa tarkoituksena on vastapelaajan asteittainen harhauttaminen.

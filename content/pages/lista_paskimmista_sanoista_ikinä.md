@@ -1,12 +1,10 @@
 ---
-category:
-  - Apusanat
-  - Listat
-  - Tragediat
+  category: 
+    - "Apusanat"
+    - "Listat"
+    - "Tragediat"
+  title: "Lista paskimmista sanoista ikinä"
 ---
-
-# Lista paskimmista sanoista ikinä
-
 # tahtotila
 # kokeilukulttuuri
 # multimodaalisuus

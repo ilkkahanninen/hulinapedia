@@ -1,10 +1,9 @@
 ---
-category:
-  - Musiikki
-  - Listat
+  category: 
+    - "Musiikki"
+    - "Listat"
+  title: "Absoluuttisesti parhaat biisit ikinä"
 ---
-# Absoluuttisesti parhaat biisit ikinä
-
 * Pave Maijanen - Lähtisitkö
 * Glenn Frey - You Belong to the City
 * Phil Collins & Philip Bailey - Easy Lover

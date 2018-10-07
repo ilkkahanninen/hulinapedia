@@ -1,10 +1,8 @@
 ---
-category:
-  - Testoilu
+  category: 
+    - "Testoilu"
+  title: "Pekkojen urheiluseura"
 ---
-
-# Pekkojen urheiluseura
-
 Lista urheilulajeista, joita Pekat yleisimmin harrastavat.
 
 Ilkka

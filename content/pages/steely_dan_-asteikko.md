@@ -1,10 +1,8 @@
 ---
-category:
-  - Mittayksiköt
+  category: 
+    - "Mittayksiköt"
+  title: "Steely Dan -asteikko"
 ---
-
-# Steely Dan -asteikko
-
 Steely Dan -asteikko (tai steelydan-asteikko) on asioiden steelydanmäisyyden määrän ilmaisuun käytetty asteikko. Sitä pidetään yhtenä laadukkaimmista mittareista, ainakin jos asia ilmaistaan steelydan-asteikoilla. Asteikon yksikkö on steelydan (sd), ja sen skaala on 0-10, 0:n ollessa vähiten ja 10:n eniten steelydanmäisyyttä ilmentävä yksikkö. Asteikkoa on toistaiseksi sovellettu etupäässä Steely Dan -yhtyeen musiikkiin, mutta teoriassa asteikkoa voi käyttää mittaamaan myös muiden yhtyeiden musiikin steelydanmäisyyttä.
 
 ## Steely Dan

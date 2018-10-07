@@ -1,5 +1,6 @@
-# Gary
-
+---
+  title: "Gary"
+---
 Gary on nimi. Tunnettuja Garyja:
 
 * Bayck Gary

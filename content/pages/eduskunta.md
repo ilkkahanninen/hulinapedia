@@ -1,9 +1,8 @@
 ---
-category:
-  - Politiikka ja petokset
+  category: 
+    - "Politiikka ja petokset"
+  title: "Eduskunta"
 ---
-# Eduskunta
-
 Valtiollinen päättävä elin.
 
 Eduskunta pystyy vaikuttamaan seuraaviin asioihin:

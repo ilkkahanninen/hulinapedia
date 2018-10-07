@@ -1,12 +1,10 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Kielioppi
-  - Huonot maneerit
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Kielioppi"
+    - "Huonot maneerit"
+  title: "Kusipäätrendi"
 ---
-
-# Kusipäätrendi
-
 NONIIN KUSIPÄÄ
 
 VOITKO VASTATA SAATANAAAAAA

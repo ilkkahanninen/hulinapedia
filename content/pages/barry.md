@@ -1,5 +1,6 @@
-# Barry
-
+---
+  title: "Barry"
+---
 Barry on nimi, joka toimii hitsin hyvin sekä etu- että sukunimenä! Seuraavassa tunnettuja Barryja:
 
 * Limp Barry

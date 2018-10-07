@@ -15,6 +15,7 @@ export default withRouteData(({ page }: Props) => (
       image={page.image}
       description={page.description}
     />
+    <h1>{page.title}</h1>
     {convert(page.content)}
     <hr />
     <a

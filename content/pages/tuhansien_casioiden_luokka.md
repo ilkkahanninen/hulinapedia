@@ -1,9 +1,7 @@
 ---
-category:
-  - Musiikki
-  - Matkakohteet
+  category: 
+    - "Musiikki"
+    - "Matkakohteet"
+  title: "Tuhansien Casioiden luokka"
 ---
-
-# Tuhansien Casioiden luokka
-
 Jyväskylän konservatoriossa sijaitseva teorialuokka, jossa Hulinaprinsessa vierailee säännöllisesti. Huom. tämän käsitteen tapauksessa termi [[tuhansia]] on poikkeuksellisesti käytetty väärin.

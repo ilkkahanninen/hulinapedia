@@ -1,12 +1,10 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Listat
-  - Tragediat
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Listat"
+    - "Tragediat"
+  title: "Jalkatragedia"
 ---
-
-# Jalkatragedia
-
 Pekkojen syksyinen (lokakuinen tai marraskuinen, sittemmin myös joulukuinen, jopa tammikuun, ja vuonna 2016 myös helmikuun puolelle ulottuva) perinne jo vuodesta 2014.
 
 * 2014: Hulinaprinsessa

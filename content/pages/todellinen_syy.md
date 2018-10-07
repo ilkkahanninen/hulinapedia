@@ -1,8 +1,6 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Ihmiset ja ilmiöt"
+  title: "Todellinen syy"
 ---
-
-# Todellinen syy
-
 Asia, jota ei ainakaan erään oululaislähtöisen tietolähteemme mukaan koskaan kerrottu.

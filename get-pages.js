@@ -57,7 +57,6 @@ export const getPages = async () => {
         .trim()
         .replace(/\[\[Category:.*?\]\]/g, '') // Remove category links for now
         .replace(/\[\[(.*?)\]\]/g, (match, text) => createInternalLink(text)) // support for mediawiki style internal links
-      const titleMatch = content.match(/#+\s*(.*)$/m)
       const imageMatch = content.match(/!\[.*?]\((.*?)\)/)
       const description = content
         .split('\n')
@@ -67,7 +66,7 @@ export const getPages = async () => {
       return {
         slug: sluginize(fileName),
         file: fileName,
-        title: titleMatch ? titleMatch[1] : fileName,
+        title: header.title || fileName,
         image: imageMatch && imageMatch[1],
         content: marked(content),
         description,

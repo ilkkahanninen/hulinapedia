@@ -1,10 +1,8 @@
 ---
-category:
-  - Listat
+  category: 
+    - "Listat"
+  title: "Lista käytännöllisistä fraaseista"
 ---
-
-# Lista käytännöllisistä fraaseista
-
 * "*Hauska kuulla.*" tai "*Hahauska kuulla.*"
 * "*Hövä (kömmenen).*" tai "*Höhövä (kömmenen).*"
 * "*Jahas.*" tai "*Jaahas.*"

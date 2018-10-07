@@ -1,5 +1,6 @@
-# Rare jätkät
-
+---
+  title: "Rare jätkät"
+---
 Tärkeä slacker estetiikka orkesteri ja sarjakuva. Esimerkki stripistä:
 
 MIKAEL: Rare jätkien pitää kyllä julkaista kaikki kassuna... Tai seiskana!

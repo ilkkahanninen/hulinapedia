@@ -1,11 +1,9 @@
 ---
-category:
-  - ONOn fanituotteet
-  - Ikuisuusprojektit
+  category: 
+    - "ONOn fanituotteet"
+    - "Ikuisuusprojektit"
+  title: "Naapurini Toto"
 ---
-
-# Naapurini Toto
-
 Hulina-tiimin tuleva sitcom. Spin-offina Torsponi Nato.
 
 ----

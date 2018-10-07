@@ -1,10 +1,8 @@
 ---
-category:
-  - Kojeet
+  category: 
+    - "Kojeet"
+  title: "Uuni"
 ---
-
-# Uuni
-
 MENE UUNIIN. MENE SUORAAN UUNIIN KULKEMATTA LÄHTÖRUUDUN KAUTTA.
 
 Kts. myös [[tanhutakka]].

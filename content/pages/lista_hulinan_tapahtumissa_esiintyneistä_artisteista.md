@@ -1,5 +1,6 @@
-# Lista Hulinan tapahtumissa esiintyneistä artisteista
-
+---
+  title: "Lista Hulinan tapahtumissa esiintyneistä artisteista"
+---
 =24.-25.3.2017 Hulinafest=
 
 ## Iltaklubit

@@ -1,5 +1,6 @@
-# Lista uutisista
-
+---
+  title: "Lista uutisista"
+---
 * Pakkanen kiristyy.
 * Tampereelle avataan Friends & Brgrs.
 * Bob Dylan voitti kirjallisuuden Nobelin palkinnon.

@@ -1,9 +1,8 @@
 ---
-category:
-  - Listat
+  category: 
+    - "Listat"
+  title: "Esimerkkejä suositeltavasta ruokavaliosta"
 ---
-# Esimerkkejä suositeltavasta ruokavaliosta
-
 * Roiskari
 * Irttarit
 * Donitsit

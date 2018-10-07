@@ -1,11 +1,9 @@
 ---
-category:
-  - Apusanat
-  - Listat
+  category: 
+    - "Apusanat"
+    - "Listat"
+  title: "Lista sukupuolineutraaleista pronomineistä"
 ---
-
-# Lista sukupuolineutraaleista pronomineistä
-
 * [[Pekka]]
 * [[Hermanni]]
 * [[Hessu]]

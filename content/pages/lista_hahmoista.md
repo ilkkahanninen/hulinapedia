@@ -1,10 +1,8 @@
 ---
-category:
-  - Listat
+  category: 
+    - "Listat"
+  title: "Lista hahmoista"
 ---
-
-# Lista hahmoista
-
 * Hector Ronkainen
 * Björn Gorbatšov
 * Kaarlo Kauriinmetsästäjä

@@ -1,11 +1,9 @@
 ---
-category:
-  - Elintarvikkeet
-  - Myyttiset artefaktit
+  category: 
+    - "Elintarvikkeet"
+    - "Myyttiset artefaktit"
+  title: "Muna"
 ---
-
-# Muna
-
 Asia, jonka näyttämiseen ei aina löydy sopivaa hetkeä.
 
 Muna voi olla vaalea ja arjalainen. On olemassa myös maitokahvin värisiä munia. Sisältä ne ovat kuitenkin samanlaisia, kuten me kaikki ihmiset, eli kauhean limaisia.

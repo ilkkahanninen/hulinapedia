@@ -1,11 +1,9 @@
 ---
-category:
-  - Myyttiset artefaktit
-  - Hypoteesit, hypotermia ja hypoteekkilainat
+  category: 
+    - "Myyttiset artefaktit"
+    - "Hypoteesit, hypotermia ja hypoteekkilainat"
+  title: "Viulu-ananas -hypoteesi"
 ---
-
-# Viulu-ananas -hypoteesi
-
 *Näin muuten viime yönä unta, jossa meidän oli tarkoitus polttaa Aliisan viulu. Jostakin syystä olin laittanut sen viulun mun olkalaukkuun ja sytyttänyt sen siellä. Mikael yritti ottaa minusta kuvia, kun laukusta nousee paksu savu ja mua hirvittää, milloinko se koko laukku leimahtaa tuleen. Jossakin vaiheessa unta se viulu oli vaihtunut papereiksi. Savuttaminen jatkui.*
 
 Ilen unessa kävi näemmä niin, ettei hauska edes ehtinyt alkaakaan ennen kuin otin kameran esiin.

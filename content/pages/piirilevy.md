@@ -1,11 +1,9 @@
 ---
-category:
-  - Musiikki
-  - Ikuisuusprojektit
+  category: 
+    - "Musiikki"
+    - "Ikuisuusprojektit"
+  title: "PIIRILEVY"
 ---
-
-# PIIRILEVY
-
 ONOn synttäripäivänä julkaistava levy, joka tuotetaan hajautetulla työryhmällä käyttäen erityistä prosessia.
 
 ## Prosessi

@@ -1,8 +1,6 @@
 ---
-category:
-  - Vaatteet
+  category: 
+    - "Vaatteet"
+  title: "Tekninen aluspaita"
 ---
-
-# Tekninen aluspaita
-
 14 kilogrammaa painava, tuulelta ja tuiskeelta suojaava, hengittävä vaatekappale. Ei vastaa housuja. Vastaa polkupyörää.

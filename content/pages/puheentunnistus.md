@@ -1,8 +1,6 @@
 ---
-category:
-  - Huonot sivut
+  category: 
+    - "Huonot sivut"
+  title: "Puheentunnistus"
 ---
-
-# Puheentunnistus
-
 Puheentunnistus on tekninen menetelmä jossa tietokone tai kännykkä tai jokin muu aparaatti kertaan ohjelmisto ja mikrofoni ja tunnistaa käyttäjän puheen muuttaminen tekstiksi se toimii yleensä aika hyvin ei siinä yleensä ole ongelmia paitsi jos on paljon hälyä ja yrittää puhua hirvittävän epäselvästi mutta tavallisesti minä puhun niin hirvittävän selvästi että puheentunnistus aika hyvin tunnistaa mitä minä yritän sanoa ja täytyy kyllä sanoa että nykyään on aika paljon kehittynyt teknologia vertaa mitä se oli esimerkiksi joskus vuosituhannen vaihteessa yleensä puhe tunnistusta käytetään enemmän jossakin puhelimissa ja liitetään tullut aika paljon lisää älyä esimerkiksi iphone siri tai android google nau sellaisia palveluita jotka tuo lisäarvoa tämä puhe tunnistuksen mitä voisitte komento hakemaan lisää tietoja tai ravintolat jatkavat aukia veritas teko algoritmin avulla sitten voi pojat että löytää kaikenlaista hauskaa tietoa mezzanotte kaikenlaisia ongelmia yhdessä ne toimii miten sattuu mutta kivoja kavereita pysty kivasti niillä hämmästyttävän opettelu muutama sopiva lauseen joka toimii hyvin esimerkiksi when did michael jackson day jolla google osasi vasta sitten oikea vuosiluvut enpä kyllä muista mikä vuosiluku oli mutta siitä lähti aikana tessa lane leikki että puhelin kirsi kirsi niini ringissä sinä ja jokainen kysy sitten kaikenlaisia kysymyksiä puhelimelta ja valpuri loistavia vastaukset kuten montako mario kart peli on tehty sas vasta sen oikein ottaa huomioon että poikkeuksellisen paljon eikä tunnista sanoja ollenkaan vaikka kuinka yritän artikuloida selvästi sitä puheentunnistus käyttö catalase runojen tekemisen ja lapsuuden lahden suomen sillä että tätä pakkasta vanha tabletti keskelle rinki etelänavan juttelu mitä puhun että varattu sanomisia tätä ja tätä sekamelska missä ja mitä järkeä toyota mitä on tehty runo aseta että että on aliavaruus luetaan vanha siemen teksti aluslaatta siihen ja alkaa lukemaan tekstiä mitä sieltä tulee mm puheentunnistus esta valmiina ja tällainen siitä että rakastan syödä sen sata toista nopeasti täällä mutta toistuu pikkusen välillä se on tylsää tekstiä salatut aika mielenkiintoisia sellasta

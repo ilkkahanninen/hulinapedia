@@ -1,5 +1,6 @@
-# Lista hyvistä tuotteista
-
+---
+  title: "Lista hyvistä tuotteista"
+---
 * suippopaprika
 * kikherneet
 * raejuusto

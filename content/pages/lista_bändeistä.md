@@ -1,12 +1,10 @@
 ---
-category:
-  - Musiikki
-  - Yhtyeet ja musajutut
-  - Listat
+  category: 
+    - "Musiikki"
+    - "Yhtyeet ja musajutut"
+    - "Listat"
+  title: "Lista bändeistä"
 ---
-
-# Lista bändeistä
-
 ## Toistaiseksi käyttämättömät nimet
 
 * THE RISTOS

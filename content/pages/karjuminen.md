@@ -1,10 +1,8 @@
 ---
-category:
-  - Mielentilat
+  category: 
+    - "Mielentilat"
+  title: "Karjuminen"
 ---
-
-# Karjuminen
-
 Yleensä johonkin toisenlaiseen aktiviteettiin liitetty toiminta. Karjuen viittaa suositeltavaan tapaan tehdä asioita.
 
 Esimerkkejä:

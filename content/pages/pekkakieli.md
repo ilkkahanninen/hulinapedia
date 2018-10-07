@@ -1,10 +1,8 @@
 ---
-category:
-  - Kielioppi
+  category: 
+    - "Kielioppi"
+  title: "Pekkakieli"
 ---
-
-# Pekkakieli
-
 Kieli, jolla [[Pekka]] tavanomaisemmin kommunikoi.
 
 ## Näyte 1

@@ -1,10 +1,8 @@
 ---
-category:
-  - Myyttiset artefaktit
+  category: 
+    - "Myyttiset artefaktit"
+  title: "Heppalappu"
 ---
-
-# Heppalappu
-
 Kuva hevoisesta. Tavallisesti anatominen.
 
 Ei pidä sekoittaa [heippalappuun](heippalappu).

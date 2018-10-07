@@ -1,10 +1,8 @@
 ---
-category:
-  - Matkakohteet
+  category: 
+    - "Matkakohteet"
+  title: "Viinasänky"
 ---
-
-# Viinasänky
-
 Viinasänky on patjasta, tukevasta alustasta sekä jaloista koostuva entiteetti, joka sijaitsee Emeriittiuksen asunnossa Kissanmaalla. Termi otettiin käyttöön ensimmäistä kertaa 14.2.2014. Katso myös [[Kansallislauludarra]].
 
 ## Viinasängyn historia

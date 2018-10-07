@@ -1,5 +1,6 @@
-# Joulukalenterin jatkokertomus
-
+---
+  title: "Joulukalenterin jatkokertomus"
+---
 Tälle sivulle kootaan Hulinan Joulukalenterin jatkokertomuksen osat.
 
 ## 1. Luukku

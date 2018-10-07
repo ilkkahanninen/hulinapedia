@@ -1,9 +1,8 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Ihmiset ja ilmiöt"
+  title: "Arkihaaste"
 ---
-# Arkihaaste
-
 Sosiaalisen median, kuten Facebookin, palstoilla levinnyt ilmiö, jossa yhteisöpalvelun käyttäjät haastoivat toisiaan lataamaan internetiin viisi kuvaa Arjestaan.
 
 ![arje1](arje1.png)

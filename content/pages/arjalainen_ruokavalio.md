@@ -1,9 +1,8 @@
 ---
-category:
-  - Elintarvikkeet
+  category: 
+    - "Elintarvikkeet"
+  title: "Arjalainen ruokavalio"
 ---
-# Arjalainen ruokavalio
-
 Arjalainen ruokavalio koostuu seuraavista asioista:
 
 * valkoinen liha

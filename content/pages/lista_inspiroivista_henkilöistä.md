@@ -1,11 +1,9 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Listat
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Listat"
+  title: "Lista inspiroivista henkilöistä"
 ---
-
-# Lista inspiroivista henkilöistä
-
 * Pekka Siitoin
 * Matti Nykänen
 * Doge

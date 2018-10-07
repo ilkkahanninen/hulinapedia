@@ -1,8 +1,6 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Ihmiset ja ilmiöt"
+  title: "Pakkosyöttö"
 ---
-
-# Pakkosyöttö
-
 Hulinapedia täyttäminen väkinäisellä sivulla pelkän sosiaalisen paineen takia.

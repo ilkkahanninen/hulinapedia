@@ -1,10 +1,8 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Ihmiset ja ilmiöt"
+  title: "Psykoosi"
 ---
-
-# Psykoosi
-
 Mielentila, jossa yksilö muodostaa pakkomielteisen, toistuvan ja muuta elämää määrittävän kiinnostuksen jotakin asiaa, henkilöä, esinettä tai ilmiötä kohtaan. Krappulan hengentieteellinen yliopisto luokittelee psykoosin aiheuttajiksi mm. seuraavat asiat:
 
 * Vaporwave

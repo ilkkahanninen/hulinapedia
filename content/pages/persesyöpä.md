@@ -1,9 +1,7 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Tragediat
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Tragediat"
+  title: "Persesyöpä"
 ---
-
-# Persesyöpä
-
 Hyvin yleinen kuolinsyy ja erittäin todennäköinen syy kaikenlaiseen oireiluun.

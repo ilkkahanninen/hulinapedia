@@ -1,10 +1,8 @@
 ---
-category:
-  - Huonot sivut
+  category: 
+    - "Huonot sivut"
+  title: "Etusivu"
 ---
-
-# Etusivu
-
 Tämän sivuston tarkoituksena on korvata Wikipedia tärkeimpänä referenssinä opiskelijoiden ainekirjoituksiin.
 
 ## Puuttuvat sivukokonaisuudet

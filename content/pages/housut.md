@@ -1,11 +1,9 @@
 ---
-category:
-  - Vaatteet
-  - Myyttiset artefaktit
+  category: 
+    - "Vaatteet"
+    - "Myyttiset artefaktit"
+  title: "Housut"
 ---
-
-# Housut
-
 Housut ovat alaraajoja paitsi jalkateriä suojaamaan tarkoitettu vaatekappale. Housujen yläosa on vyötäröllä, kaksiosainen alaosa peittää puolestaan molemmat jalat. Housujen alaosa koostuu kahdesta lahkeesta; molempia jalkoja varten on oma lahje. Housut pysyvät jalassa yleensä vyön tai henkseleiden avulla. Usein housut kiristetään kiinni vetoketjun tai nappien avulla. Housujen käyttöä tulee kuitenkin mieluiten välttää. Housujen käyttämättömyyteen liittyy tosin riskejä, kuten [munan](muna) näyttäminen ja se, että ilman housuja saattaa tulla [kylmä](kylmyys).
 
 Housut jakautuvat tiettävästi kolmeen alalajiin:

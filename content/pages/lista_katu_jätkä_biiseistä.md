@@ -1,10 +1,8 @@
 ---
-category:
-  - Listat
+  category: 
+    - "Listat"
+  title: "Lista katu jätkä biiseistä"
 ---
-
-# Lista katu jätkä biiseistä
-
 Soulartisti Sami Saari kertoi taannoin internetissä olevansa katu jätkä. Tässä artikkelissa listataan tosi kovien katu jätkien katu jätkä biisejä.
 
 * Jari Sillanpää - Kaduilla tuulee https://www.youtube.com/watch?v=RZUwLB8skRc

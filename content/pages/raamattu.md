@@ -1,5 +1,6 @@
-# Raamattu
-
+---
+  title: "Raamattu"
+---
 19 Silti hän jatkoi entistä menoaan. Hän muisteli nuoruutensa päiviä, irstasta elämäänsä Egyptissä, 20 ja hänen mielensä paloi Egyptin himokkaisiin miehiin, joilla oli elin kuin aasilla ja jotka sinkosivat siementään kuin orhi. Hes. 23:19-20
 
 12 Syö leipäsi ohuina kakkuina, jotka paistat heidän nähtensä ihmislannalla. Hes. 4:12

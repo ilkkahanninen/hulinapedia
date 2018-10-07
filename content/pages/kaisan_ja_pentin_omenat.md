@@ -1,10 +1,8 @@
 ---
-category:
-  - Yhteenlasku ja muut matemaattiset ongelmat
+  category: 
+    - "Yhteenlasku ja muut matemaattiset ongelmat"
+  title: "Kaisan ja Pentin omenat"
 ---
-
-# Kaisan ja Pentin omenat
-
 Kuuluisa matemaattinen paradoksi, jossa näennäisen yksinkertaisen tehtävänannon takaa paljastuukin epämääräinen vastaus. Paradoksi on tavallisesti esitetty muodossa:
 
 <blockquote>Kaisalla ja Pekalla on vitusti omenia. Paljon heillä on omenia?</blockquote>

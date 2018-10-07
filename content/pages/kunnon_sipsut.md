@@ -1,10 +1,8 @@
 ---
-category:
-  - Elintarvikkeet
+  category: 
+    - "Elintarvikkeet"
+  title: "Kunnon sipsut"
 ---
-
-# Kunnon sipsut
-
 Kunnon sipsut ovat valmistettu seuraavista raaka-aineista:
 
 * peruna

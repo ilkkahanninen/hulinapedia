@@ -1,10 +1,8 @@
 ---
-category:
-  - Listat
+  category: 
+    - "Listat"
+  title: "Sanaristikon sanat"
 ---
-
-# Sanaristikon sanat
-
 * KIIRE
 * AHDISTUS
 * KAPITALISMI

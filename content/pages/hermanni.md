@@ -1,10 +1,8 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Ihmiset ja ilmiöt"
+  title: "Hermanni"
 ---
-
-# Hermanni
-
 # se on vähä niinku sillee joku on tyhmän näköne niinku joku herp derp vammane ja tällee tai sit vaa sanoo et joku sanoo et mul on mopo! nii voit vastata et hienoa hermanni se sopii moneen juttuun
 # Kaupunginosa Helsingissä
 # Juusto

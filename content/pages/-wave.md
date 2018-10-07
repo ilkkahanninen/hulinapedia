@@ -1,10 +1,9 @@
 ---
-category:
-  - Apusanat
-  - Kielioppi
+  category: 
+    - "Apusanat"
+    - "Kielioppi"
+  title: "-wave"
 ---
-# -wave
-
 Kätevä tapa muodostaa jotain asiaa tai ilmiötä kuvaileva adjektiivi. Vapaavalintainen sana + -wave-liite.
 
 Esimerkkejä:

@@ -1,7 +1,6 @@
 ---
-category:
-  - Myyttiset artefaktit
+  category: 
+    - "Myyttiset artefaktit"
+  title: "Ämpäri"
 ---
-# Ämpäri
-
 Arvostettava esine, joka monesti aiheuttaa massahysteriaa ja jota [jonotetaan](Jono) ympäri Suomea.

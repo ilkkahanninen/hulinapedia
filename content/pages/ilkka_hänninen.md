@@ -1,11 +1,9 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Väärinymmärretyt nerot
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Väärinymmärretyt nerot"
+  title: "Ilkka Hänninen"
 ---
-
-# Ilkka Hänninen
-
 Ilkka Hänninen (s. 23.3.1983) on [pekkoihin](pekka) sisältyvä nimimerkki, jota Mikael Mattila käytti vastatessaan puheluihin. Ilkka Hänninen tunnetaan myös Kokkolan kuuluisimpana miekan käyttäjänä (ks. [internetsissä](https://www.facebook.com/Joka-p%C3%A4iv%C3%A4-sama-kuva-Ilkka-H%C3%A4nnisest%C3%A4-miekan-kanssa-1209259169145768/?fref=ts) ) , miehenä, joka pelasti internetin, sekä ohjelmistosuunnittelijana. Ilkka Hänninen tunnetaan myös ylenkatsomuksestaan housujen käyttöä kohtaan.
 
 ## Kohut

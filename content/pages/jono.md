@@ -1,10 +1,8 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Ihmiset ja ilmiöt"
+  title: "Jono"
 ---
-
-# Jono
-
 Jonottamista voi harjoittaa mm. seuraavissa paikoissa:
 
 * Tokmannin ulkopuolella. Katso myös [[ämpäri]].

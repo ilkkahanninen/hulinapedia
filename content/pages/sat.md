@@ -1,9 +1,7 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Ikuisuusprojektit
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Ikuisuusprojektit"
+  title: "SAT"
 ---
-
-# SAT
-
 Sangen Asiallinen Tukka. Hulinaprinsessan entinen hiusmalli (noin 2014-2015).

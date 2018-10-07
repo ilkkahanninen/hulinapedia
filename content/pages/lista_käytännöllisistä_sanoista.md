@@ -1,11 +1,9 @@
 ---
-category:
-  - Apusanat
-  - Listat
+  category: 
+    - "Apusanat"
+    - "Listat"
+  title: "Lista käytännöllisistä sanoista"
 ---
-
-# Lista käytännöllisistä sanoista
-
 * 2000%
 * 9000%
 * 666

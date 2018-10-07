@@ -1,9 +1,7 @@
 ---
-category:
-  - Tragediat
-  - Ihmiset ja ilmiöt
+  category: 
+    - "Tragediat"
+    - "Ihmiset ja ilmiöt"
+  title: "Parisuhde"
 ---
-
-# Parisuhde
-
 Asia, jossa suurin osa [pekoista](Pekka) näyttää epäonnistuvan toistuvasti. Aiheuttaa useimmissa tapauksissa äkillistä ja radikaalia [nihilismiä](nihilismi).

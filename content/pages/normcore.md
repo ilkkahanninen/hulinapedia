@@ -1,10 +1,8 @@
 ---
-category:
-  - Tragediat
+  category: 
+    - "Tragediat"
+  title: "Normcore"
 ---
-
-# Normcore
-
 ![prisma](prisma.jpg)
 ![qashqai](qashqai.jpg)
 ![vainelamaa](vainelamaa.png)

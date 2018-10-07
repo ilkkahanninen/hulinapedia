@@ -1,11 +1,9 @@
 ---
-category:
-  - Musiikki
-  - Listat
+  category: 
+    - "Musiikki"
+    - "Listat"
+  title: "Haitarin jumiin saavat biisit"
 ---
-
-# Haitarin jumiin saavat biisit
-
 Niitä ei ole.
 
 ----

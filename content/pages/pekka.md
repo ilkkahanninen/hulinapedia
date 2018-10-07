@@ -1,9 +1,7 @@
 ---
-category:
-  - Ihmiset ja ilmiöt
-  - Väärinymmärretyt nerot
+  category: 
+    - "Ihmiset ja ilmiöt"
+    - "Väärinymmärretyt nerot"
+  title: "Pekka"
 ---
-
-# Pekka
-
 [[KIITOS PEKKA 666]] -monimediayhteisön jäsen ja asukas. Sisältää rivologista loiduntaa ja kohtuuttomuuksiin takautuvaa sisäpiiriaineistoa.

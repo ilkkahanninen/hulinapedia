@@ -1,10 +1,8 @@
 ---
-category:
-  - Yhteenlasku ja muut matemaattiset ongelmat
+  category: 
+    - "Yhteenlasku ja muut matemaattiset ongelmat"
+  title: "Rare Kake paradoksi"
 ---
-
-# Rare Kake paradoksi
-
 Rare Kake on kuuluisa looginen ja joukko-opillinen paradoksi, jonka tyypillinen muotoilu kuuluu näin: "Jokaisella on rare kake paita."
 
 Väittämä voidaan purkaa pienempiin lauseisiin, jolloin paradoksin sisäinen ristiriita kuoriutuu kuin LSD-ikäinen lapsi ihostaan:

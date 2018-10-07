@@ -1,10 +1,8 @@
 ---
-category:
-  - Kielioppi
+  category: 
+    - "Kielioppi"
+  title: "Kielioppi"
 ---
-
-# Kielioppi
-
 Kielioppi ja oikeakielisyys on tärkeää. Jopa niin tärkeää, että on syytä mennä siinä natseilun puolelle. Ne tekevät keskustelusta, sen että sen osallistujat ymmärtävät.
 
 Esimerkkejä oikeakielisyydestä:
