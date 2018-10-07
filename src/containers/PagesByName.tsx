@@ -2,6 +2,7 @@ import React from 'react'
 import { withRouteData, Link } from 'react-static'
 import { groupBy, keys, sort } from 'ramda'
 import { MinimalPageData } from '../types'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   pages: MinimalPageData[]
@@ -18,6 +19,18 @@ const sortPages = sort((a: MinimalPageData, b: MinimalPageData) =>
   a.title.localeCompare(b.title, 'fi'),
 )
 
+const netlifyIdentifyJS = `
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+`
+
 export default withRouteData(({ pages }: Props) => {
   const groupedPages = byFirstLetter(pages)
   const letters = keys(groupedPages).map(letter => letter.toString())
@@ -25,6 +38,9 @@ export default withRouteData(({ pages }: Props) => {
 
   return (
     <div>
+      <Helmet>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+      </Helmet>
       <h1>Tervetuloa Hulinapedian arkistoon</h1>
       {sortedLetters.map(letter => (
         <div key={letter}>
@@ -38,6 +54,11 @@ export default withRouteData(({ pages }: Props) => {
           </ul>
         </div>
       ))}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: netlifyIdentifyJS,
+        }}
+      />
     </div>
   )
 })
