@@ -50,8 +50,9 @@ export const getPages = async () => {
   })
 
   return Promise.all(
-    files.map(async fileName => {
-      const source = (await readFile(path.join(pagePath, fileName))).toString()
+    files.map(async file => {
+      const source = (await readFile(path.join(pagePath, file))).toString()
+      const fileName = file.replace(/\.md$/, '')
       const { __content, ...header } = yamlFront.loadFront(source)
       const content = __content
         .trim()

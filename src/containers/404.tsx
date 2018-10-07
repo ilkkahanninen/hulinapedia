@@ -1,7 +1,7 @@
 import React from 'react'
 import { withRouteData, Redirect } from 'react-static'
 import * as R from 'ramda'
-import { sluginize } from "../../utils/sluginize";
+import { sluginize } from '../../utils/sluginize'
 
 const getPageId = R.pipe(
   R.split('/'),
@@ -19,24 +19,16 @@ export default withRouteData(({ match }: { match: { url: string } }) => {
   }
 
   const title = capitalize(id.replace(/_/g, ' '))
-  const body = `%23%20${title}`
-
-  const redirect = (event: React.MouseEvent) => {
-    event.preventDefault()
-    window.location.replace(
-      `https://github.com/ilkkahanninen/hulinapedia/new/master/content/pages/${slug}?filename=${slug}&value=${body}`,
-    )
-  }
 
   return (
     <div>
-      <h1>{title}</h1>
+      <h1>{title}?</h1>
       <p className="error">
         Tätä sivua ei vielä ole, mutta ehkä vielä joku päivä tämäkin on.
       </p>
       <hr />
-      <a href="#" onClick={redirect}>
-        Luo uusi sivu GitHubissa
+      <a href="https://hulinapedia.netlify.com/admin/#/collections/page/new">
+        Luo uusi sivu
       </a>
     </div>
   )

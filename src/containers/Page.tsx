@@ -19,11 +19,11 @@ export default withRouteData(({ page }: Props) => (
     {convert(page.content)}
     <hr />
     <a
-      href={`https://github.com/ilkkahanninen/hulinapedia/edit/master/content/pages/${
+      href={`https://hulinapedia.netlify.com/admin/#/collections/page/entries/${
         page.file
       }`}
     >
-      Muokkaa sivua GitHubissa
+      Muokkaa sivua
     </a>
   </div>
 ))
