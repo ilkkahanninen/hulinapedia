@@ -61,8 +61,7 @@ export const getPages = async () => {
       const imageMatch = content.match(/!\[.*?]\((.*?)\)/)
       const description = content
         .split('\n')
-        .slice(1)
-        .find(n => n)
+        .slice(0)
 
       return {
         slug: sluginize(fileName),
