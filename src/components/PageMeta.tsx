@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Helmet from 'react-helmet'
+import { Head } from 'react-static'
 
 interface Props {
   title?: string
@@ -12,7 +12,7 @@ export const PageMeta: React.SFC<Props> = ({ title, image, description }) => {
   const descr = description || 'Hulinan virallinen sala-arkisto'
 
   return (
-    <Helmet>
+    <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={descr} />
 
@@ -37,6 +37,6 @@ export const PageMeta: React.SFC<Props> = ({ title, image, description }) => {
           content={`https://hulinapedia.netlify.com/images/${image}`}
         />
       )}
-    </Helmet>
+    </Head>
   )
 }
