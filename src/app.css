@@ -12,6 +12,8 @@ body {
   line-height: 1.75em;
   font-weight: 400;
   hyphens: auto;
+  color: #333;
+  background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +35,13 @@ h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #108db8;
+  color: #4af;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 30px 0;
 }
 
 a.missing-target {
@@ -47,13 +55,24 @@ img {
 nav {
   font-family: 'Roboto Slab', serif;
   width: 100%;
-  background: #108db8;
+  background: #333;
 }
 
 nav a {
   color: white;
   padding: 1rem;
   display: inline-block;
+  border-bottom: 5px solid transparent;
+}
+
+nav .logo {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav .active-link {
+  color: white;
+  border-color: white;
 }
 
 .error {
@@ -62,6 +81,21 @@ nav a {
   padding: 1rem;
   border: 1px solid #f00;
   border-radius: 3px;
+}
+
+.categories {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 70%;
+  line-height: 2em;
+}
+
+.categories a {
+  color: white;
+  background: #333;
+  margin-right: 2px;
+  padding: 0 1.5rem;
+  display: inline-block;
 }
 
 .content {

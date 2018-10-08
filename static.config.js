@@ -31,6 +31,7 @@ export default {
       {
         path: '/',
         component: 'src/containers/PagesByName',
+        priority: 1,
         getData: () => ({
           pages: pageList,
         }),
@@ -38,6 +39,7 @@ export default {
       {
         path: '/kategoriat',
         component: 'src/containers/PagesByCategory',
+        priority: 1,
         getData: () => ({
           categories: R.zipWith(
             category => ({

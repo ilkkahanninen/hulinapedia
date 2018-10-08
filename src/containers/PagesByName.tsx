@@ -41,7 +41,7 @@ export default withRouteData(({ pages }: Props) => {
       <Helmet>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       </Helmet>
-      <h1>Tervetuloa Hulinapedian arkistoon</h1>
+      <h1>Lista sivuista</h1>
       {sortedLetters.map(letter => (
         <div key={letter}>
           <h2>{letter}</h2>

@@ -3,6 +3,7 @@ import { withRouteData, Link } from 'react-static'
 import convert from 'htmr'
 import { PageData } from '../types'
 import { PageMeta } from '../components/PageMeta'
+import { Categories } from '../components/Categories'
 
 interface Props {
   page: PageData
@@ -26,6 +27,7 @@ export default withRouteData(({ page }: Props) => (
     />
     <h1>{page.title}</h1>
     {convert(page.content, { transform })}
+    {page.categories.length > 0 && <Categories categories={page.categories} />}
     <hr />
     <a
       href={`https://hulinapedia.netlify.com/admin/#/collections/page/entries/${

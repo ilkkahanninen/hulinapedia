@@ -27,6 +27,7 @@ export default withRouteData(({ categories }: Props) => {
       <h1>Sivut kategorioittain</h1>
       {sortCategories(categories).map(({ category, pages }) =>
         <div key={category}>
+          <a id={category} />
           <h2>{category}</h2>
           <ul>
             {sortPages(pages).map(page => (

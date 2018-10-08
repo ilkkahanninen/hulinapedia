@@ -1,7 +1,6 @@
 import React from 'react'
 import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
-//
 import Routes from 'react-static-routes'
 
 import './app.css'
@@ -13,7 +12,9 @@ const App = () => (
       <PageMeta />
       <nav>
         <div className="responsive-container">
-          <Link to="/">Hulinapedia</Link>
+          <Link to="/" className="logo">Hulinapedia</Link>
+          <Link to="/" exact={true} activeClassName="active-link">Lista sivuista</Link>
+          <Link to="/kategoriat" activeClassName="active-link">Kategoriat</Link>
         </div>
       </nav>
       <div className="content responsive-container">
