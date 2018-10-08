@@ -30,9 +30,8 @@ export const PageMeta: React.SFC<Props> = ({
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={`https://hulinapedia.netlify.com${route}`}
+        content={`https://hulinapedia.netlify.com${route}/`}
       />
-      <meta property="og:title" content={title} />
       <meta property="og:locale" content="fi_FI" />
     </Head>
   )
