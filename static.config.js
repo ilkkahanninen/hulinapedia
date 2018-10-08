@@ -1,3 +1,4 @@
+import React from 'react'
 import { reloadRoutes } from 'react-static/node'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import path from 'path'
@@ -62,6 +63,8 @@ export default {
       },
     ]
   },
+  renderToHtml: async (render, Component) =>
+    render(<Component />).replace(/\sdata-react-helmet="true"/g, ''),
   webpack: (config, { defaultLoaders }) => {
     // Add .ts and .tsx extension to resolver
     config.resolve.extensions.push('.ts', '.tsx')
