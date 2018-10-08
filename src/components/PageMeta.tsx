@@ -17,7 +17,8 @@ export const PageMeta: React.SFC<Props> = ({ title, image, description }) => {
     <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={descr} />
-      <meta property="og:site_name" content={title} />
+      <meta property="og:site_name" content="Hulinapedia" />
+      <meta property="og:title" content={title} />
       <meta property="og:description" content={descr} />
       <meta property="og:image" content={imageSrc} />
       <meta property="og:type" content="website" />
