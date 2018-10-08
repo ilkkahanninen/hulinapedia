@@ -1,16 +1,16 @@
 ---
-  category: 
-    - "Apusanat"
-    - "Listat"
-    - "Tragediat"
-  title: "Lista paskimmista sanoista ikinä"
+title: Lista paskimmista sanoista ikinä
+category:
+  - Apusanat
+  - Listat
+  - Tragediat
 ---
-# tahtotila
-# kokeilukulttuuri
-# multimodaalisuus
-# suvakki
-# pöhinä
-# jytky
-# viherjytky
-# kuntakenttä
-# nelikenttä
+* tahtotila
+* kokeilukulttuuri
+* multimodaalisuus
+* suvakki
+* pöhinä
+* jytky
+* viherjytky
+* kuntakenttä
+* nelikenttä
