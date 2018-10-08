@@ -5,9 +5,15 @@ interface Props {
   title?: string
   description?: string
   image?: string
+  route?: string
 }
 
-export const PageMeta: React.SFC<Props> = ({ title, image, description }) => {
+export const PageMeta: React.SFC<Props> = ({
+  title,
+  image,
+  description,
+  route,
+}) => {
   const fullTitle = `Hulinapedia${title ? ` – ${title}` : ''}`
   const descr = description || 'Hulinan virallinen sala-arkisto'
   const imageSrc = `https://hulinapedia.netlify.com/images/${image ||
@@ -22,7 +28,10 @@ export const PageMeta: React.SFC<Props> = ({ title, image, description }) => {
       <meta property="og:description" content={descr} />
       <meta property="og:image" content={imageSrc} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://hulinapedia.netlify.com" />
+      <meta
+        property="og:url"
+        content={`https://hulinapedia.netlify.com${route}`}
+      />
       <meta property="og:title" content={title} />
       <meta property="og:locale" content="fi_FI" />
     </Head>

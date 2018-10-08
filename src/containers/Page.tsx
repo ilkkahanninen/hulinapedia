@@ -14,6 +14,7 @@ export default withRouteData(({ page }: Props) => (
       title={page.title}
       image={page.image}
       description={page.description}
+      route={`/sivu/${page.slug}`}
     />
     <h1>{page.title}</h1>
     {convert(page.content)}
