@@ -13,8 +13,8 @@ const App = () => (
       <nav>
         <div className="responsive-container">
           <Link to="/" className="logo">Hulinapedia</Link>
-          <Link to="/" exact={true} activeClassName="active-link">Lista sivuista</Link>
-          <Link to="/kategoriat" activeClassName="active-link">Kategoriat</Link>
+          <Link to="/" exact={true} activeClassName="active-link">Hakemisto</Link>
+          <Link to="/kategoriat" activeClassName="active-link">Luokat</Link>
         </div>
       </nav>
       <div className="content responsive-container">

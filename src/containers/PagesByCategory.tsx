@@ -24,7 +24,7 @@ const sortPages = sort((a: MinimalPageData, b: MinimalPageData) =>
 export default withRouteData(({ categories }: Props) => {
   return (
     <div>
-      <h1>Sivut kategorioittain</h1>
+      <h1>Luokat</h1>
       {sortCategories(categories).map(({ category, pages }) =>
         <div key={category}>
           <a id={category} />
