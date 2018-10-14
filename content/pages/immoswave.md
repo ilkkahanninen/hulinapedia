@@ -1,4 +1,4 @@
 ---
-  title: "Immoswave"
+title: Immoswave
 ---
-Voisko joku kertoa mullekin mikä tää on? Terveisin Ilkka.
+Valtakunnanjohtaja Pekka Siitoinin synnyinpitäjä Varkaudessa kohdattu tapa markkinoida vuokra-asuntoja. Sen erityispiirteisiin lukeutuu kuuluvalla äänellä karjaistu tervehdys _rock your day._
