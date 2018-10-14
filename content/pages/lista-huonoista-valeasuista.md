@@ -9,3 +9,4 @@ Huono valeasu on sellainen asu, joka ei ole valheellinen, vaan ihan oikea asu. H
 2. Alusvaatteet
 3. Trenssitakki
 4. Pyyhe
+5. Saunabolero
