@@ -1,3 +1,4 @@
+import 'full-icu'
 import { reloadRoutes } from 'react-static/node'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import path from 'path'
@@ -17,6 +18,7 @@ const getCategories = R.pipe(
 )
 
 const minimalPageData = R.pick(['slug', 'title'])
+const stringCompare = new Intl.Collator('fi-FI').compare
 
 export default {
   siteRoot: 'https://hulinapedia.netlify.com/',
@@ -32,9 +34,27 @@ export default {
         path: '/',
         component: 'src/containers/PagesByName',
         priority: 1,
-        getData: () => ({
-          pages: pageList,
-        }),
+        getData: () => {
+          const byFirstLetter = R.groupBy(page => {
+            const letter = page.title.slice(0, 1).toUpperCase()
+            return letter.match(/[\wÄÖÅ]/) ? letter : '#'
+          })
+
+          const sortStrings = R.sort(stringCompare)
+
+          const sortPages = R.sort((a, b) => stringCompare(a.title, b.title))
+
+          const groupedPages = byFirstLetter(pageList)
+          const letters = R.keys(groupedPages).map(letter => letter.toString())
+          const sortedLetters = sortStrings(letters)
+
+          return {
+            pages: sortedLetters.map(letter => ({
+              letter,
+              pages: sortPages(groupedPages[letter]),
+            })),
+          }
+        },
       },
       {
         path: '/kategoriat',

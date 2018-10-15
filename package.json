@@ -1,18 +1,18 @@
 {
-  "name": "react-static-typescript-enabled",
+  "name": "hulinapedia",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "start": "NODE_ICU_DATA=./node_modules/full-icu/node_modules/icu4c-data react-static start",
+    "stage": "NODE_ICU_DATA=./node_modules/full-icu/node_modules/icu4c-data react-static build --staging",
+    "build": "NODE_ICU_DATA=./node_modules/full-icu/node_modules/icu4c-data react-static build",
+    "serve": "NODE_ICU_DATA=./node_modules/full-icu/node_modules/icu4c-data serve dist -p 3000"
   },
   "dependencies": {
     "@types/ramda": "^0.25.39",
-    "axios": "^0.18.0",
     "chokidar": "^2.0.4",
+    "full-icu": "^1.2.1",
     "htmr": "^0.7.0",
     "marked": "^0.5.1",
     "ramda": "^0.25.0",
@@ -24,7 +24,6 @@
     "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
     "@types/node": "^10.11.4",
     "@types/react": "^16.0.40",
     "@types/react-dom": "^16.0.4",
