@@ -16,7 +16,7 @@ export const PageMeta: React.SFC<Props> = ({
 }) => {
   const fullTitle = `Hulinapedia${title ? ` – ${title}` : ''}`
   const descr = description || 'Hulinan virallinen sala-arkisto'
-  const imageSrc = `https://hulinapedia.netlify.com/images/${image ||
+  const imageSrc = `https://pedia.hulina.org/images/${image ||
     'hulina-opengraph.png'}`
 
   return (
@@ -30,7 +30,7 @@ export const PageMeta: React.SFC<Props> = ({
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={`https://hulinapedia.netlify.com${route}/`}
+        content={`https://pedia.hulina.org${route}/`}
       />
       <meta property="og:locale" content="fi_FI" />
     </Head>

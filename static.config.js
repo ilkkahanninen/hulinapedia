@@ -21,7 +21,7 @@ const minimalPageData = R.pick(['slug', 'title'])
 const stringCompare = new Intl.Collator('fi-FI').compare
 
 export default {
-  siteRoot: 'https://hulinapedia.netlify.com/',
+  siteRoot: 'https://pedia.hulina.org/',
   entry: path.join(__dirname, 'src', 'index.tsx'),
   getSiteData: () => ({}),
   getRoutes: async () => {

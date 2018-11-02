@@ -30,7 +30,7 @@ export default withRouteData(({ page }: Props) => (
     {page.categories.length > 0 && <Categories categories={page.categories} />}
     <hr />
     <a
-      href={`https://hulinapedia.netlify.com/admin/#/collections/page/entries/${
+      href={`https://pedia.hulina.org/admin/#/collections/page/entries/${
         page.file
       }`}
     >

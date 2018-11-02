@@ -27,7 +27,7 @@ export default withRouteData(({ match }: { match: { url: string } }) => {
         Tätä sivua ei vielä ole, mutta ehkä vielä joku päivä tämäkin on.
       </p>
       <hr />
-      <a href="https://hulinapedia.netlify.com/admin/#/collections/page/new">
+      <a href="https://pedia.hulina.org/admin/#/collections/page/new">
         Luo uusi sivu
       </a>
     </div>
